@@ -1,0 +1,29 @@
+/* Laptop */
+@media only screen and (min-width: 480px) {
+  .Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    background-color: black;
+    color: blanchedalmond;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .Header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 15vh;
+      background-color: black;
+      color: blanchedalmond;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }

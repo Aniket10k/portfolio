@@ -1,0 +1,19 @@
+/* Laptop */
+@media only screen and (min-width: 480px) {
+  .Social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .Social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+}

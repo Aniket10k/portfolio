@@ -1,17 +1,18 @@
-import Typography from "@mui/material/Typography";
-import image from './me.png';
 import "./App.css";
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
+import NavigationBar from "./NavigationBar/NavigationBar";
+import Content from "./Content/Content";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={image} alt="Aniket Kulkarni" width="250" height="250"/>
-        <Typography variant={"h1"}>Aniket Kulkarni</Typography>
-        <Typography variant={"h5"}>
-          Personal portfolio!!
-        </Typography>
-      </header>
+      <Header />
+      <div className="App-body">
+        <NavigationBar />
+        <Content />
+      </div>
+      <Footer />
     </div>
   );
 }
