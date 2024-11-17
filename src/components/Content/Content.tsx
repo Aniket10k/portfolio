@@ -26,26 +26,46 @@ function Content() {
     <div className="Content">
       <div>
         <Typography variant={"h4"}>About me</Typography>
+        <hr/>
+        <Typography>I am Aniket Kulkarni,</Typography>
         <Typography>
-          Greetings! 👋 I am a Software Development Engineer 2 currently
-          thriving in the dynamic ecosystem of Amazon. With a robust foundation
-          as a Systems Engineer at TCS, I bring a wealth of experience in
-          driving impactful projects, specializing in Data Structures,
-          Algorithms, and Systems Design. During my tenure at TCS, I played a
-          pivotal role in steering a successful migration project, showcasing my
-          adept skills in orchestrating seamless transitions and optimizing
-          system functionalities. Since then, my journey at Amazon has been
-          marked by the creation of multiple cutting-edge platforms, further
-          solidifying my reputation as a tech enthusiast with a knack for
-          delivering scalable and efficient solutions. Let's connect to explore
-          opportunities for collaboration, knowledge exchange, and the pursuit
-          of excellence in the realm of technology. Together, let's shape the
-          future of innovation! 💡 #TechEnthusiast #SoftwareDevelopment
-          #Innovation #DataStructures #Algorithms #SystemsDesign
+          A passionate and results-driven Software Development Engineer with
+          extensive experience in designing and implementing robust, scalable,
+          and efficient software solutions. Currently based in Bengaluru, India,
+          I thrive on solving complex challenges and delivering impactful
+          technology to enhance user experiences and operational excellence.
+        </Typography>
+        <Typography>
+          At Amazon, I have played a pivotal role in developing end-to-end
+          platforms, scalable alarm systems, and advanced algorithms using
+          OpenCV, significantly optimizing processes and driving data-driven
+          insights. My contributions include reducing onboarding efforts by 70%
+          and achieving up to 90% improvement in operational tasks. I also excel
+          at creating POCs that empower customers to explore new use cases,
+          enhancing product latency and quality.
+        </Typography>
+        <Typography>
+          Previously, at Tata Consultancy Services, I contributed to modernizing
+          high-load transactional systems by building RESTful APIs and
+          React-based UIs, improving security, configurability, and performance
+          for critical services.
+        </Typography>
+        <Typography>
+          With a strong foundation in Data Structures, System Design, and
+          Full-Stack Development, I am proficient in technologies such as Java,
+          Python, React, Springboot, AWS, and OpenCV. My work consistently
+          reflects my dedication to crafting seamless, scalable solutions that
+          align with business goals.
+        </Typography>
+        <Typography>
+          When not coding, I enjoy exploring cutting-edge technology trends,
+          engaging in problem-solving challenges, and continuously learning to
+          stay ahead in the dynamic field of software engineering.
         </Typography>
       </div>
       <div>
         <Typography variant={"h4"}>Skills</Typography>
+        <hr/>
         {isDesktopOrLaptop ? (
           <Grid container spacing={2}>
             <Grid size={4}>
@@ -140,18 +160,46 @@ function Content() {
       </div>
       <div>
         <Typography variant={"h4"}>Experience</Typography>
+        <hr/>
         <Typography>
+          <div className="horizontal">
+            <Typography variant={"h5"}>Amazon</Typography>
+            <Typography>( From Aug 2021 )</Typography>
+          </div>
           <Typography variant={"h6"}>
-            Software Development Engineer II @Amazon
+            Software Development Engineer II
+          </Typography>
+          <Typography>
+            - Designed and developed a comprehensive end-to-end platform to
+            streamline request ingestion enabling efficient benchmarking of
+            large volumes of requests. Reduced onboarding effort for a new use
+            case by 70%.
+          </Typography>
+          <Typography>
+            - Engineered scalable Alarms and Notification system, enhancing
+            platform robustness and ensuring seamless System Operations.
+          </Typography>
+          <Typography>
+            - Worked on OpenCV-based algorithms to extract meaningful insights
+            from large volumes of video and image artifacts, driving data-driven
+            decision-making.
+          </Typography>
+          <Typography>
+            - Developed multiple POCs, including hardware setups and algorithms,
+            to enable customer onboarding for new use cases and provide
+            actionable insights for optimizing product latency and quality.
+          </Typography>
+          <Typography>
+            - Involved in research, migration, deep dive, maintenance & support
+            for various activities to improve customer experience.
+          </Typography>
+          <Typography variant={"h6"}>
+            Software Development Engineer I
           </Typography>
           <Typography>
             <Typography>
-              - Designed and Developed a gateway system for request ingestion
-              across the organization.
-            </Typography>
-            <Typography>
-              - Developed the front end of an internal tool with an intuitive
-              user interface used by 150+ internal and external consumers.
+              - Developed the user interface for a validation tool that served
+              150+ internal and external consumers.
             </Typography>
             <Typography>
               - Implemented a notification feature which completely removed
@@ -168,15 +216,15 @@ function Content() {
             </Typography>
             <Typography>
               - Designed and Implemented a credential store for secure storage
-              of highly sensitive data.
-            </Typography>
-            <Typography>
-              - Involved in research, migration, deep dive, maintenance &
-              support for various activities to improve customer experience.
+              of susceptible data.
             </Typography>
           </Typography>
           <br />
-          <Typography variant={"h6"}>Systems Engineer @TCS</Typography>
+          <div className="horizontal">
+            <Typography variant={"h5"}>Tata Consultancy Services</Typography>
+            <Typography>( July 2019 - Aug 2021 )</Typography>
+          </div>
+          <Typography variant={"h6"}>Systems Engineer</Typography>
           <Typography>
             <Typography>
               - Worked as a part of System Modernization Team, design and built
@@ -210,6 +258,7 @@ function Content() {
       </div>
       <div>
         <Typography variant={"h4"}>Education</Typography>
+        <hr/>
         <Typography>
           <Typography variant={"h6"}>
             Government Colllege of Engineering, Aurangabad
@@ -221,7 +270,6 @@ function Content() {
               Code-Junkie 4.0, Astronomy ClubActivities and societies: Codechef
               Campus Chapter, Team Arambh, Code-Junkie 4.0, Astronomy Club
             </Typography>
-
             <Typography>
               - Started Codechef Campus Chapter to attract juniors in the coding
               culture.
@@ -240,6 +288,7 @@ function Content() {
       </div>
       <div>
         <Typography variant={"h4"}>Achievements</Typography>
+        <hr/>
         <Typography>
           - Recognized with Special Recognition Award from Tata Consultancy
           Services.
@@ -261,6 +310,7 @@ function Content() {
       </div>
       <div>
         <Typography variant={"h4"}>Others</Typography>
+        <hr/>
         <div className={"horizontal"}>
           <BookIcon />
           <Link href="https://medium.com/@kulkarni10aniket/my-journey-from-service-based-to-product-based-company-amazon-b94739fc171c">
