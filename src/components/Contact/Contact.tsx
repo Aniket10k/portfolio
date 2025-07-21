@@ -41,8 +41,8 @@ const Contact: React.FC = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'kulkarni10aniket@example.com',
-      link: 'mailto:kulkarni10aniket@example.com'
+      value: 'kulkarni10aniket@gmail.com',
+      link: 'mailto:kulkarni10aniket@gmail.com'
     },
     // {
     //   icon: '📱',
@@ -232,10 +232,10 @@ const Contact: React.FC = () => {
             I'd love to hear from you. Let's build something amazing together!
           </p>
           <div className="cta-buttons">
-            <a href="mailto:aniket.kulkarni@example.com" className="btn btn-primary">
+            <a href="mailto:kulkarni10aniket@gmail.com" className="btn btn-primary">
               Email Me Directly
             </a>
-            <a href="https://linkedin.com/in/aniketkulkarni" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/aniket10k" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
               Connect on LinkedIn
             </a>
           </div>
