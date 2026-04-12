@@ -9,36 +9,31 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I am Aniket Kulkarni, a passionate and results-driven Software Development Engineer with 
-              extensive experience in designing and implementing robust, scalable, and efficient software solutions. 
-              Currently based in Bengaluru, India, I thrive on solving complex challenges and delivering 
-              impactful technology to enhance user experiences and operational excellence.
+              I am Aniket Kulkarni, a passionate and results-driven Software Development Engineer II at Amazon, with strong experience in designing and building large-scale, distributed, and AI-driven systems. Based in Bengaluru, India, I thrive on solving complex engineering challenges and delivering impactful solutions that drive both user experience and operational excellence.
             </p>
             <p>
-              At Amazon, I have played a pivotal role in developing end-to-end platforms, scalable alarm systems, 
-              and advanced algorithms using OpenCV, significantly optimizing processes and driving data-driven insights. 
-              My contributions include reducing onboarding efforts by 70% and achieving up to 90% improvement in 
-              operational tasks. I also excel at creating POCs that empower customers to explore new use cases, 
-              enhancing product latency and quality.
+              At Amazon, I own and lead the architecture of a transactional instrumentation platform processing 600M+ events per day, enabling real-time analytics and performance optimization across critical payment systems. I am actively driving multi-region expansion, building region-agnostic, highly available data pipelines to support global use cases.
             </p>
             <p>
-              Previously, at Tata Consultancy Services, I contributed to modernizing high-load transactional systems 
-              by building RESTful APIs and React-based UIs, improving security, configurability, and performance 
-              for critical services.
+              I have also spearheaded the development of an Autonomous War Room platform powered by Agentic AI, enabling intelligent incident orchestration, proactive downtime mitigation, and faster resolution of high-impact operational events. Additionally, I have designed and productionized LLM-driven automation workflows, reducing manual effort by over 60% while improving decision accuracy and turnaround time.
             </p>
             <p>
-              With a strong foundation in Data Structures, System Design, and Full-Stack Development, I am proficient 
-              in technologies such as Java, Python, React, Springboot, AWS, and OpenCV. My work consistently reflects 
-              my dedication to crafting seamless, scalable solutions that align with business goals.
+              My contributions include building scalable end-to-end platforms that reduced onboarding effort by 70%, engineering robust alarms and notification systems, and leveraging OpenCV-based algorithms to extract actionable insights from large-scale data. I have consistently driven operational excellence through automation, reliability improvements, and cross-team collaboration, while also mentoring engineers and leading critical initiatives.
+            </p>
+            <p>
+                Previously, at Tata Consultancy Services, I contributed to modernizing high-load transactional systems by developing RESTful APIs and React-based applications, improving system reliability, security, and performance.
+            </p>
+            <p>
+                With a strong foundation in Data Structures, System Design, and Full-Stack Development, I am proficient in Java, Python, React, Spring Boot, AWS, and OpenCV. I am particularly interested in building scalable backend systems and applying AI to solve real-world problems, with a focus on high-impact, production-grade solutions.
             </p>
           </div>
           <div className="about-stats">
             <div className="stat-card">
-              <div className="stat-number">5+</div>
+              <div className="stat-number">6+</div>
               <div className="stat-label">Years Experience</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">10+</div>
+              <div className="stat-number">20+</div>
               <div className="stat-label">Projects Completed</div>
             </div>
             <div className="stat-card">

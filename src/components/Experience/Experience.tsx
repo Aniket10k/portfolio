@@ -9,7 +9,7 @@ const Experience: React.FC = () => {
       positions: [
         {
           title: "Software Development Engineer II - Payments IN",
-          period: "Current",
+          period: "Sept 2025 - Current",
           achievements: [
             "Own the architecture and scalability of a transactional instrumentation platform processing 600M+ events/day, enabling real-time analytics and performance optimization across critical payment systems.",
             "Leading multi-region expansion of the monitoring platform, architecting region-agnostic data pipelines to support global payment use cases with high availability and consistency.",
@@ -18,7 +18,7 @@ const Experience: React.FC = () => {
         },
         {
           title: "Software Development Engineer II - Benchmarking",
-          period: "Current",
+          period: "Promotion - Sept 2025",
           achievements: [
             "Designed and developed a comprehensive end-to-end platform to streamline request ingestion enabling efficient benchmarking of large volumes of requests. Reduced onboarding effort for a new use case by 70%.",
             "Engineered scalable Alarms and Notification system, enhancing platform robustness and ensuring seamless System Operations.",
